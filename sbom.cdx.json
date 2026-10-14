@@ -1,0 +1,138 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:f7b3416d-7527-56ac-9e4c-460a13044f75",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T16:18:56Z",
+  "component": {
+   "type": "application",
+   "name": "LLM",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/LLM@83b357604d34",
+   "purl": "pkg:generic/anticloud/LLM@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "click",
+   "version": "unspecified",
+   "purl": "pkg:pypi/click",
+   "bom-ref": "pypi/click@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "httpx2",
+   "version": "unspecified",
+   "purl": "pkg:pypi/httpx2",
+   "bom-ref": "pypi/httpx2@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "condense-json",
+   "version": ">=1.1",
+   "purl": "pkg:pypi/condense-json@1.1",
+   "bom-ref": "pypi/condense-json@>=1.1"
+  },
+  {
+   "type": "library",
+   "name": "openai",
+   "version": ">3",
+   "purl": "pkg:pypi/openai@3",
+   "bom-ref": "pypi/openai@>3"
+  },
+  {
+   "type": "library",
+   "name": "click-default-group",
+   "version": ">=1.2.3",
+   "purl": "pkg:pypi/click-default-group@1.2.3",
+   "bom-ref": "pypi/click-default-group@>=1.2.3"
+  },
+  {
+   "type": "library",
+   "name": "sqlite-utils",
+   "version": ">=4.0",
+   "purl": "pkg:pypi/sqlite-utils@4.0",
+   "bom-ref": "pypi/sqlite-utils@>=4.0"
+  },
+  {
+   "type": "library",
+   "name": "pydantic",
+   "version": ">=2.0.0",
+   "purl": "pkg:pypi/pydantic@2.0.0",
+   "bom-ref": "pypi/pydantic@>=2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "typing-extensions",
+   "version": "unspecified",
+   "purl": "pkg:pypi/typing-extensions",
+   "bom-ref": "pypi/typing-extensions@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "PyYAML",
+   "version": "unspecified",
+   "purl": "pkg:pypi/pyyaml",
+   "bom-ref": "pypi/PyYAML@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pluggy",
+   "version": "unspecified",
+   "purl": "pkg:pypi/pluggy",
+   "bom-ref": "pypi/pluggy@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "python-ulid",
+   "version": "unspecified",
+   "purl": "pkg:pypi/python-ulid",
+   "bom-ref": "pypi/python-ulid@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "setuptools",
+   "version": "unspecified",
+   "purl": "pkg:pypi/setuptools",
+   "bom-ref": "pypi/setuptools@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pip",
+   "version": "unspecified",
+   "purl": "pkg:pypi/pip",
+   "bom-ref": "pypi/pip@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pyreadline3",
+   "version": "unspecified",
+   "purl": "pkg:pypi/pyreadline3",
+   "bom-ref": "pypi/pyreadline3@unspecified"
+  }
+ ],
+ "sha_unverified": true
+}
